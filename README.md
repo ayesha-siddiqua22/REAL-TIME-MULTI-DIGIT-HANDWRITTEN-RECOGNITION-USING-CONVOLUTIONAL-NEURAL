@@ -84,11 +84,11 @@ The project is implemented using **Python, TensorFlow, Keras, OpenCV, and Flask*
 
 ## ▶️ How to Run
 
-Step 1: Install Dependencies
+ Step 1: Install Dependencies
 bash
 pip install -r requirements.txt
-Step 2: Run the Application
+ Step 2: Run the Application
 Bash
 python app.py
-Step 3: Open Browser
+ Step 3: Open Browser
 http://127.0.0.1:5000

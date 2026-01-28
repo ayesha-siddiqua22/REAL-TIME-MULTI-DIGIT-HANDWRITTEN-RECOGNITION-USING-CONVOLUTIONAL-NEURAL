@@ -83,8 +83,9 @@ The project is implemented using **Python, TensorFlow, Keras, OpenCV, and Flask*
 ---
 
 ## ▶️ How to Run
+
 Step 1: Install Dependencies
-```bash
+bash
 pip install -r requirements.txt
 Step 2: Run the Application
 Bash

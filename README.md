@@ -58,10 +58,6 @@ The project is implemented using **Python, TensorFlow, Keras, OpenCV, and Flask*
 
 ---
 
-## 📂 Project Structure
-Real-Time-Multi-Digit-Handwritten-Recognition/ │ ├── model/ │   └── Digit-Model.h5 │ ├── backend/ │   ├── model_training.py │   └── model_testing.py │ ├── frontend/ │   ├── templates/ │   │   ├── index.html │   │   ├── login.html │   │   └── performance.html │   └── static/ │ ├── app.py ├── requirements.txt └── README.md
----
-
 ## 📊 Dataset
 - **MNIST / EMNIST Digits Dataset**
 - 70,000+ handwritten digit images
@@ -74,7 +70,7 @@ Real-Time-Multi-Digit-Handwritten-Recognition/ │ ├── model/ │   └─
 - Convolutional Layers (Conv2D + MaxPooling)
 - Dropout for regularization
 - Reshape layer for sequence conversion
-- Bidirectional LSTM layers
+- Bidirectional LSTM layer
 - Fully connected Dense layers
 - Softmax activation for classification
 
@@ -87,8 +83,7 @@ Real-Time-Multi-Digit-Handwritten-Recognition/ │ ├── model/ │   └─
 ---
 
 ## ▶️ How to Run
-
-### Step 1: Install Dependencies
+Step 1: Install Dependencies
 ```bash
 pip install -r requirements.txt
 Step 2: Run the Application
